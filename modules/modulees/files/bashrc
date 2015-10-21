@@ -1,0 +1,13 @@
+# .bashrc
+
+# Source global definitions
+if [ -f /etc/bashrc ]; then
+	. /etc/bashrc
+fi
+
+# User specific aliases and functions
+HOSTNAME=$(hostname)
+if [ "${HOSTNAME}" != "mb-login" ] && [ -t 0 ] && terminal=1
+then
+    module add gcc openmpi
+fi
