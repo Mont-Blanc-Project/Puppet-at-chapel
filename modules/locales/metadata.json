@@ -1,0 +1,27 @@
+{
+  "name": "saz-locales",
+  "version": "2.1.0",
+  "source": "https://github.com/saz/puppet-locales",
+  "author": "saz",
+  "license": "Apache License, Version 2.0",
+  "summary": "Manage locales on Debian/Ubuntu Linux",
+  "description": "Manage locales via Puppet",
+  "project_page": "https://github.com/saz/puppet-locales",
+  "dependencies": [
+
+  ],
+  "types": [
+
+  ],
+  "checksums": {
+    "Modulefile": "f47ed46d10edb55c93e22633a2b9bf41",
+    "README.md": "b300285e128a340904845bea1342e0eb",
+    "manifests/init.pp": "3a7eef6c2fa59141d533f3a681377b8b",
+    "manifests/params.pp": "9c4a2b40664b380074f3337d32f28f0e",
+    "spec/spec.opts": "a600ded995d948e393fbe2320ba8e51c",
+    "spec/spec_helper.rb": "ca19ec4f451ebc7fdb035b52eae6e909",
+    "templates/locale.erb": "876ada7606a13b636598e5b7af08f699",
+    "templates/locale.gen.erb": "d2e643c0cbe682d9334becee5598079c",
+    "tests/init.pp": "b924c2e05e488a0118ce375341477886"
+  }
+}
