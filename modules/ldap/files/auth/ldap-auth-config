@@ -1,0 +1,6 @@
+[lac_ldap]
+nss_passwd=passwd: files ldap
+nss_group=group: files ldap
+nss_shadow=shadow: files ldap
+nss_netgroup=netgroup: nis
+

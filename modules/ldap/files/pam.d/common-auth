@@ -1,0 +1,6 @@
+auth	[success=2 default=ignore]	pam_unix.so nullok_secure
+auth    [success=1 default=ignore]  pam_ldap.so minimum_uid=1000  use_first_pass
+auth	requisite			pam_deny.so
+auth	required			pam_permit.so
+account    sufficient    /lib/arm-linux-gnueabihf/security/pam_access.so
+account    required      /lib/security/pam_slurm.so
