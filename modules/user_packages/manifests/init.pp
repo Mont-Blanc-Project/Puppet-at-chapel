@@ -1,4 +1,45 @@
-class random_packages {
+#These are packages requested by the users
+class user_packages {
+	package { "memtester":
+        	ensure => latest,
+        }
+        package { "libqt4-dev":
+                ensure => latest,
+        }
+        package { "libqt4-core":
+                ensure => latest,
+        }
+        package { "graphviz":
+                ensure => latest,
+        }
+        package { "graphviz-dev":
+                ensure => latest,
+        }
+        package { "libpyside-dev":
+                ensure => latest,
+        }
+        package { "libpyside1.2":
+                ensure => latest,
+        }
+        package { "pyside-tools":
+                ensure => latest,
+        }
+        package { "python2.7":
+                ensure => latest,
+        }
+        package { "python2.7-dev":
+                ensure => latest,
+        }
+        package { "python-dev":
+                ensure => latest,
+        }
+	package { "python-networkx":
+		ensure => latest,
+	}
+	package { "python-pygraphviz":
+		ensure => latest,
+	}
+
 	package { "binfmt-support":
 		ensure => latest,
 	}

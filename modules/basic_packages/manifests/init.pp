@@ -1,5 +1,9 @@
+#In fact these packages are called basic, but should be called 'basic for the sysadmins'
 class basic_packages {
 	package { "screen":
+		ensure => latest,
+	}
+	package { "time":
 		ensure => latest,
 	}
 	package { "aptitude":
@@ -38,38 +42,4 @@ class basic_packages {
   	package { "tree":
   		ensure => latest,
   	}
-	#Not so basic
-	package { "memtester":
-		ensure => latest,
-	}
-	package { "libqt4-dev":
-		ensure => latest,
-  	}
-	package { "libqt4-core":
-		ensure => latest,
-	}
-	package { "graphviz":
-		ensure => latest,
-	}
-	package { "graphviz-dev":
-		ensure => latest,
-	}
-	package { "libpyside-dev":
-		ensure => latest,
-	}
-	package { "libpyside1.2":
-		ensure => latest,
-	}
-	package { "pyside-tools":
-		ensure => latest,
-	}
-	package { "python2.7":
-		ensure => latest,
-	}
-	package { "python2.7-dev":
-		ensure => latest,
-	}
-	package { "python-dev":
-		ensure => latest,
-	}
 }
